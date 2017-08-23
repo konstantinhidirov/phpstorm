@@ -1,22 +1,35 @@
 <keymap version="1" name="Default copy" parent="$default">
-  <action id="CloseActiveTab" />
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="BaseOnThisFunction" />
+  <action id="ChangesView.Diff" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneRow" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDuplicate" />
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
-  <action id="GotoTest" />
-  <action id="Images.ShowThumbnails" />
   <action id="ParameterInfo" />
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift ctrl t" />
-  </action>
   <action id="Runner.CloseAllViews">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="SendEOF" />
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Vcs.Show.Log">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
