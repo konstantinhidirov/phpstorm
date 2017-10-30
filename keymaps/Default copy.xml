@@ -1,5 +1,4 @@
 <keymap version="1" name="Default copy" parent="$default">
-  <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -7,12 +6,7 @@
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.TogglePathShowing" />
-  <action id="GotoTest" />
-  <action id="Images.ShowThumbnails" />
   <action id="ParameterInfo" />
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift ctrl t" />
-  </action>
   <action id="Runner.CloseAllViews">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
