@@ -1,10 +1,15 @@
 <application>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="C:\php\php.exe" id="80df5cdd-7b64-4340-ab45-aab877741b68" name="PHP" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP">
-        <phpinfo binary_type="PHP" php_cgi="F:\php-7.2.0\php-cgi.exe" php_cli="F:\php-7.2.0\php.exe" path_separator=";" version="7.2.0beta1">
+        <phpinfo binary_type="PHP" php_cgi="C:\php\php-cgi.exe" php_cli="C:\php\php.exe" path_separator=";" version="7.1.6">
           <additional_php_ini />
-          <configuration_file>F:\php-7.2.0\php.ini</configuration_file>
+          <configuration_file>C:\php\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -25,7 +30,6 @@
             <configuration_option name="browscap" value="" />
             <configuration_option name="cli.pager" value="" />
             <configuration_option name="cli.prompt" value="\b \&gt; " />
-            <configuration_option name="curl.cainfo" value="" />
             <configuration_option name="date.default_latitude" value="31.7667" />
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
@@ -36,8 +40,8 @@
             <configuration_option name="default_socket_timeout" value="60" />
             <configuration_option name="disable_classes" value="" />
             <configuration_option name="disable_functions" value="" />
-            <configuration_option name="display_errors" value="1" />
-            <configuration_option name="display_startup_errors" value="1" />
+            <configuration_option name="display_errors" value="" />
+            <configuration_option name="display_startup_errors" value="" />
             <configuration_option name="doc_root" value="" />
             <configuration_option name="docref_ext" value="" />
             <configuration_option name="docref_root" value="" />
@@ -46,14 +50,13 @@
             <configuration_option name="error_append_string" value="" />
             <configuration_option name="error_log" value="" />
             <configuration_option name="error_prepend_string" value="" />
-            <configuration_option name="error_reporting" value="32767" />
+            <configuration_option name="error_reporting" value="22527" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="ext" />
+            <configuration_option name="extension_dir" value="C:\php\ext" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
             <configuration_option name="from" value="" />
-            <configuration_option name="gd.jpeg_ignore_warning" value="1" />
             <configuration_option name="hard_timeout" value="2" />
             <configuration_option name="highlight.comment" value="#FF8000" />
             <configuration_option name="highlight.default" value="#0000BB" />
@@ -81,18 +84,10 @@
             <configuration_option name="max_input_nesting_level" value="64" />
             <configuration_option name="max_input_time" value="-1" />
             <configuration_option name="max_input_vars" value="1000" />
-            <configuration_option name="mbstring.detect_order" value="" />
-            <configuration_option name="mbstring.encoding_translation" value="0" />
-            <configuration_option name="mbstring.func_overload" value="0" />
-            <configuration_option name="mbstring.http_input" value="" />
-            <configuration_option name="mbstring.http_output" value="" />
-            <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
-            <configuration_option name="mbstring.internal_encoding" value="" />
-            <configuration_option name="mbstring.language" value="neutral" />
-            <configuration_option name="mbstring.strict_detection" value="0" />
-            <configuration_option name="mbstring.substitute_character" value="" />
+            <configuration_option name="mcrypt.algorithms_dir" value="" />
+            <configuration_option name="mcrypt.modes_dir" value="" />
             <configuration_option name="memory_limit" value="128M" />
-            <configuration_option name="mysqlnd.collect_memory_statistics" value="1" />
+            <configuration_option name="mysqlnd.collect_memory_statistics" value="" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
             <configuration_option name="mysqlnd.fetch_data_copy" value="0" />
@@ -100,12 +95,10 @@
             <configuration_option name="mysqlnd.mempool_default_size" value="16000" />
             <configuration_option name="mysqlnd.net_cmd_buffer_size" value="4096" />
             <configuration_option name="mysqlnd.net_read_buffer_size" value="32768" />
-            <configuration_option name="mysqlnd.net_read_timeout" value="86400" />
+            <configuration_option name="mysqlnd.net_read_timeout" value="31536000" />
             <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
             <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="open_basedir" value="" />
-            <configuration_option name="openssl.cafile" value="" />
-            <configuration_option name="openssl.capath" value="" />
             <configuration_option name="output_buffering" value="0" />
             <configuration_option name="output_encoding" value="" />
             <configuration_option name="output_handler" value="" />
@@ -133,7 +126,7 @@
             <configuration_option name="session.cookie_httponly" value="" />
             <configuration_option name="session.cookie_lifetime" value="0" />
             <configuration_option name="session.cookie_path" value="/" />
-            <configuration_option name="session.cookie_secure" value="0" />
+            <configuration_option name="session.cookie_secure" value="" />
             <configuration_option name="session.gc_divisor" value="1000" />
             <configuration_option name="session.gc_maxlifetime" value="1440" />
             <configuration_option name="session.gc_probability" value="1" />
@@ -159,8 +152,9 @@
             <configuration_option name="session.use_trans_sid" value="0" />
             <configuration_option name="short_open_tag" value="" />
             <configuration_option name="smtp_port" value="25" />
+            <configuration_option name="sql.safe_mode" value="" />
             <configuration_option name="sys_temp_dir" value="" />
-            <configuration_option name="track_errors" value="0" />
+            <configuration_option name="track_errors" value="" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
             <configuration_option name="upload_tmp_dir" value="" />
@@ -174,7 +168,7 @@
             <configuration_option name="windows.show_crt_warning" value="0" />
             <configuration_option name="xmlrpc_error_number" value="0" />
             <configuration_option name="xmlrpc_errors" value="0" />
-            <configuration_option name="zend.assertions" value="1" />
+            <configuration_option name="zend.assertions" value="-1" />
             <configuration_option name="zend.detect_unicode" value="1" />
             <configuration_option name="zend.enable_gc" value="1" />
             <configuration_option name="zend.multibyte" value="0" />
@@ -194,20 +188,15 @@
             <extension name="bcmath" />
             <extension name="calendar" />
             <extension name="ctype" />
-            <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
-            <extension name="fileinfo" />
             <extension name="filter" />
-            <extension name="gd" />
-            <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
             <extension name="json" />
             <extension name="libxml" />
-            <extension name="mbstring" />
+            <extension name="mcrypt" />
             <extension name="mysqlnd" />
-            <extension name="openssl" />
             <extension name="pcre" />
             <extension name="readline" />
             <extension name="session" />
