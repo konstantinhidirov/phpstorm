@@ -1,19 +1,20 @@
 <scheme name="Railscasts copy1" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-07-25T23:46:46</property>
+    <property name="created">2018-01-28T02:08:36</property>
     <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2018.1.6.0.0</property>
-    <property name="modified">2018-07-25T23:47:37</property>
-    <property name="originalScheme">Railscasts copy1</property>
+    <property name="ideVersion">2017.3.2.0.0</property>
+    <property name="modified">2018-01-28T02:09:24</property>
+    <property name="originalScheme">Railscasts copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Code" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Fira Code" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <colors>
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="333435" />
