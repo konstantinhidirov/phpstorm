@@ -4,7 +4,7 @@
     <property name="created">2018-01-28T02:08:36</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.3.2.0.0</property>
-    <property name="modified">2018-09-28T23:52:47</property>
+    <property name="modified">2019-02-08T12:05:05</property>
     <property name="originalScheme">Railscasts copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.15" />
@@ -28,7 +28,7 @@
     <option name="INDENT_GUIDE" value="2f3234" />
     <option name="LINE_NUMBERS_COLOR" value="a39e99" />
     <option name="SELECTED_INDENT_GUIDE" value="404040" />
-    <option name="SELECTION_BACKGROUND" value="545c73" />
+    <option name="SELECTION_BACKGROUND" value="2a364c" />
     <option name="WHITESPACES" value="363636" />
   </colors>
   <attributes>
@@ -488,6 +488,7 @@
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
