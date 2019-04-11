@@ -3,4 +3,7 @@
     <option name="PHPDOC_THROWS_CALL_TREE_ANALYSIS_DEPTH" value="0" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
   </PHPCodeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+  </codeStyleSettings>
 </code_scheme>
