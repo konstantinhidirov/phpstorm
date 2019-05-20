@@ -1,4 +1,9 @@
 <application>
+  <component name="GithubAccounts">
+    <account id="6dfcf9a4-c804-44f9-9e25-48c61928b813" name="konstantinhidirov">
+      <server host="github.com" />
+    </account>
+  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="konstantinhidirov" />
     <option name="AUTH_TYPE" value="BASIC" />
