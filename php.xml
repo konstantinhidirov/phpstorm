@@ -7,17 +7,17 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/local/bin/php" id="fe49f3d4-86bd-4adc-b519-9e2fcc56e8b5" name="PHP 7.2" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/bin/php" id="fe49f3d4-86bd-4adc-b519-9e2fcc56e8b5" name="PHP 7.3" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.2">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.2.9_2/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.2.9_2/bin/php" path_separator=":" version="7.2.9">
-          <additional_php_ini>/usr/local/etc/php/7.2/conf.d/ext-imap.ini, /usr/local/etc/php/7.2/conf.d/ext-opcache.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/7.2/php.ini</configuration_file>
+      <interpreter name="PHP 7.3">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.3.6_1/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.3.6_1/bin/php" path_separator=":" version="7.3.6">
+          <additional_php_ini>/usr/local/etc/php/7.3/conf.d/ext-opcache.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/7.3/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.2.9_2/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.3.6_1/share/php/pear" />
           </configuration_options>
           <debuggers />
           <loaded_extensions>
@@ -29,7 +29,6 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="Zend OPcache" />
-            <extension name="amqp" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
@@ -47,7 +46,6 @@
             <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
-            <extension name="imap" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
@@ -78,6 +76,7 @@
             <extension name="sysvmsg" />
             <extension name="sysvsem" />
             <extension name="sysvshm" />
+            <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
             <extension name="xml" />
